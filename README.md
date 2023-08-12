@@ -1,50 +1,70 @@
-Google Docs Clone
+# Getting Started with Create React App
 
-This is a simple Google Docs clone application built using Node.js, Express.js, Quill.js, and Socket.io. This application allows multiple users to collaboratively edit a document in real-time, similar to the functionality provided by Google Docs.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Features
-Real-time collaborative document editing.
-Text formatting using the Quill.js rich text editor.
-User presence indicator.
-Document version history.
-User-specific cursors.
-Technologies Used
-Node.js: Backend server environment.
-Express.js: Web application framework for Node.js.
-Quill.js: Rich text editor for text formatting.
-Socket.io: Library for real-time communication.
-HTML/CSS: Frontend structure and styling.
-MongoDB: Database for storing document versions (optional feature).
-Getting Started
-Clone the repository:
-bash
+## Available Scripts
 
-cd google-docs-clone
-Install dependencies:
-bash
-Copy code
-npm install
-Start the server:
-bash
-Copy code
-node server.js
-Open your web browser and navigate to http://localhost:3000 to access the application.
-Usage
-Create a new document by clicking the "New Document" button on the homepage.
+In the project directory, you can run:
 
-Share the document URL with collaborators.
+### `npm start`
 
-As users join the document, their cursors will appear, and you can see their presence in the user list.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Start typing to see real-time changes and updates from other users.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-Use the Quill.js toolbar to format text with bold, italics, bullet points, etc.
+### `npm test`
 
-The document's version history can be accessed to see changes over time.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Folder Structure
-public/: Contains static assets such as CSS, JavaScript, and images.
-views/: Contains the HTML templates for rendering the application pages.
-server.js: Main server file where the Express.js app is set up and Socket.io is configured.
-routes/: Contains route handlers
+### `npm run build`
 
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
